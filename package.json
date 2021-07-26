@@ -2,11 +2,15 @@
 	"name": "gravvity",
 	"version": "0.1.0",
 	"private": true,
+	"engines": {
+		"node": "14.16.1"
+	},
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
-		"export": "npm run build && next export && mv out _static"
+		"export": "npm run build && next export",
+		"prod":"next start -H 0.0.0.0 -p ${PORT:-8080}"
 	},
 	"dependencies": {
 		"firebase": "^8.8.0",
