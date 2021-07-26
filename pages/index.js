@@ -19,6 +19,7 @@ export default function Home() {
 			draggable: true,
 			progress: undefined,
 		};
+
 		if (type === "error") {
 			return toast.error(message, options);
 		} else {

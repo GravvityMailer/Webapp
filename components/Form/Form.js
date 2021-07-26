@@ -67,7 +67,6 @@ const Form = ({ activateToast }) => {
 
 	return (
 		<div className={styles.formContainer}>
-			{console.log(selectedCoins)}
 			<div className={styles.formGroup}>
 				<label htmlFor="exampleInputEmail1" className="form-label">
 					Email
@@ -89,7 +88,6 @@ const Form = ({ activateToast }) => {
 				<select
 					value="default"
 					disabled={selectedCoins.length >= 3}
-					defaultValue="default"
 					className="form-select"
 					id="exampleSelect1"
 					onChange={(e) =>
