@@ -1,0 +1,60 @@
+.formContainer {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	margin-top: 30px;
+}
+
+.formGroup {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	font-family: PoppinsLight;
+}
+
+.selectedCoinsContainer {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.selectedCoin {
+	display: flex;
+	flex-direction: row;
+	width: fit-content;
+	align-items: center;
+	background-color: #d2ebf5;
+	padding: 5px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	font-family: PoppinsLight;
+	font-size: 16px;
+}
+
+.coinName {
+	margin-right: 10px;
+}
+
+.buttonText {
+	padding: 0;
+	margin: 0;
+	font-family: PoppinsLight;
+	font-size: 16px;
+	text-transform: lowercase;
+	letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 550px) {
+	.formContainer {
+		width: 270px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.formContainer {
+		width: 270px;
+	}
+}
