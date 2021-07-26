@@ -1,12 +1,31 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 import Logo from "../assets/images/logo.svg";
 import Form from "../components/Form/Form";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
+	const showToast = (type, message) => {
+		const options = {
+			position: "top-right",
+			autoClose: 5000,
+			hideProgressBar: false,
+			closeOnClick: true,
+			pauseOnHover: true,
+			draggable: true,
+			progress: undefined,
+		};
+		if (type === "error") {
+			return toast.error(message, options);
+		} else {
+			return toast.info(message, options);
+		}
+	};
+
 	return (
 		<div className={styles.container}>
 			<Head>
@@ -35,7 +54,7 @@ export default function Home() {
 							<span className={styles.bold}>1 email</span>!
 						</p>
 					</section>
-					<Form />
+					<Form activateToast={(type, message) => showToast(type, message)} />
 					<footer>
 						<h1 className={styles.logoHeading}>gravvity.in</h1>
 						<p
@@ -57,6 +76,17 @@ export default function Home() {
 					</footer>
 				</main>
 			</div>
+			<ToastContainer
+				position="bottom-left"
+				autoClose={5000}
+				hideProgressBar={false}
+				newestOnTop={false}
+				closeOnClick
+				rtl={false}
+				pauseOnFocusLoss
+				draggable
+				pauseOnHover
+			/>
 		</div>
 	);
 }
