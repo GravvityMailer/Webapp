@@ -35,9 +35,6 @@ const Form = ({ activateToast }) => {
 
 		let email = emailAddress.toLowerCase().trim();
 
-		if (email === "mittalritika720@gmail.com")
-			return activateToast("error", "Please Select At Least One Coin!");
-
 		if (selectedCoins.length === 0)
 			return activateToast("error", "Please Select At Least One Coin!");
 

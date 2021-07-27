@@ -30,8 +30,13 @@ export default function Home() {
 	return (
 		<div className={styles.container}>
 			<Head>
-				<title>Gravvity: Realtime Stock Prices in Mail!</title>
-				<meta name="description" content="" />
+				<title>Gravvity: Realtime Stock Prices in just 1 Mail!</title>
+				<meta charset="UTF-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+				<meta
+					name="description"
+					content="An email based newsletter which provides realtime updates of crypto-currency prices in just 1 email!"
+				/>
 				<link rel="icon" href="/favicon.ico" />
 				<link
 					rel="stylesheet"
