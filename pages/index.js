@@ -50,6 +50,19 @@ export default function Home() {
 				></link>
 			</Head>
 			<div className={styles.parentMainContainer}>
+				<a
+					href="https://www.producthunt.com/posts/gravvity?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-gravvity"
+					target="_blank"
+					style={{ position: "absolute" }}
+				>
+					<img
+						src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=307884&theme=dark"
+						alt="Gravvity - Real-time crypto prices in just one email!  | Product Hunt"
+						style={{ width: "250px", height: "54px", margin: "25px" }}
+						width="250"
+						height="54"
+					/>
+				</a>
 				<main className={styles.mainContainer}>
 					<Image src={Logo} className={styles.logo} />
 					<section className={styles.header}>
@@ -93,18 +106,6 @@ export default function Home() {
 				draggable
 				pauseOnHover
 			/>
-			<a
-				href="https://www.producthunt.com/posts/gravvity?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-gravvity"
-				target="_blank"
-			>
-				<img
-					src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=307884&theme=dark"
-					alt="Gravvity - Real-time crypto prices in just one email!  | Product Hunt"
-					style={{ width: "250px", height: "54px", margin: "25px" }}
-					width="250"
-					height="54"
-				/>
-			</a>
 		</div>
 	);
 }
