@@ -1,0 +1,33 @@
+These are some pointers in regards to my SES Production Access request.
+
+Q. What will be the emails used for?
+A. I am building a startup which consisits of a newsletter service. Users will be asked to register on the website(https://gravvity.in) with their emails, and would receive 1 EMAIL/DAY which would consist of prices of those cryptocurrencies that the user has selected on the website.
+
+Q. What will be frequency of the emails?
+A. Each user will receive the email once in a day, more specifically at 8 AM. We are not going to spam the users emails with promotional/spammy stuff and for that we are giving an option in our emails to unsubscribe at any time.
+
+Q. How are we handling user emails?
+A. 
+TL;DR: 
+	The registered user emails would be encrypted using industry standard algorithm, and securely transfered to a private and secure database(MondoDB Atlas). We are not using 3rd party email collecting services to maintain atmost security.  
+Long Ans:
+	Users will use our web platform to subscribe to our service and we will transfer their email over secure protocol(HTTPS) while using development security principles to a private and protected backend server, where they would be processed and encrypted with a secure hashing algorithm(AES-256) and then transferred to a secure, private, production ready database. We are not using ANY 3rd party service like Mailchimp etc. to store or collect any emails to maintain atmost security.
+
+Q. How are we going to handle user complaints?
+A. We want to keep our consumers satisfied with our product and service. In our emails, we will be adding atleast 2 ways to contact us and discuss with us the complaints or the problems that they will face. Our website also holds the links to contact us at any point of time.
+Apart from that, we will be adding a link to a complaints form in our email as well as the website which could be filled by any user any number of times. All the complaints as well as requests would be taken care of at the earliest.
+
+Q. How are we going to handle user unsubscribes?
+A. We are giving our users the freedom to subscribe/unsubscribe to our service at any point of time. We will be giving a link to unsubscribe to our service in each of our emails. And, we have also added to option to change the preferences in our website. This way, all the control is in users' hands.
+
+Q. What kind of content are we going to send over emails?
+A. We are new. This is why we will never try to piss our users off by sending them spammy or promotional emails. We are very strict about the content that we are going to share. Any user will receive only the content that we have mentioned on our website and the content that the user will opt for.
+We are not going to send any emails, not even one, which won't align with the interest of our user.
+
+Q. How are we going to handle email bounces?
+A. We are trying our best to opt for the best practices to avoid bouncing of emails. We have got our domain verified, along with the SSL certificate which verifies it as a secure domain. 
+We have also verified our domain with AWS and also configured the DKIM settings to make it more credible.
+We will be using production grade AWS SES servers which will prevent the emails from going into spam boxes and prevent bouncing. We are going to use AWS SNS service which will give us an alert when an email gets bounced so, even after this, by any chance the email gets bounced, we will reschedule that email for sometime later that day.  
+
+Q. How are we handling recipient lists?
+A. We are using a private, production grade database where we are going to store the emails of users. All the emails, are encrypted using an industry level algorithm AES-256 which will make sure that the privacy of users is not hampered. We are also going to make regular backups of the list so that our users don't face any inconvenience due the any problems caused at our side.
