@@ -6,8 +6,8 @@
 ![DigitalOcean](https://img.shields.io/badge/-DigitalOcean-0080ff?style=flat-square&logo=DigitalOcean&logoColor=white)
 
 ### Table of Contents  
-- [Introduction](https://github.com/GravvityMailer/server#introduction)
-- [Installation](https://github.com/GravvityMailer/server#installation)
+- [Introduction](https://github.com/GravvityMailer/Webapp#introduction)
+- [Installation](https://github.com/GravvityMailer/Webapp#installation)
 
 ## Introduction
 Are you interested in cryptocurrency? If you are then I am sure that you'd like to get realtime updates of the markets and the coins.
