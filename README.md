@@ -1,6 +1,13 @@
 # Automated Crypto Newsletter
 
-![](https://img.shields.io/badge/Next-JS-green) ![](https://img.shields.io/badge/Node-JS-blue) ![](https://img.shields.io/badge/AWS-red)
+![JavaScript](https://img.shields.io/badge/-JavaScript-f7df1e?style=flat-square&logo=javascript&logoColor=black)
+![Nextjs](https://img.shields.io/badge/-Nextjs-black?style=flat-square&logo=nextdotjs)
+![React](https://img.shields.io/badge/-React-61dafb?style=flat-square&logo=react&logoColor=white)
+![DigitalOcean](https://img.shields.io/badge/-DigitalOcean-0080ff?style=flat-square&logo=DigitalOcean&logoColor=white)
+
+### Table of Contents  
+- [Introduction](https://github.com/GravvityMailer/server#introduction)
+- [Installation](https://github.com/GravvityMailer/server#installation)
 
 ## Introduction
 Are you interested in cryptocurrency? If you are then I am sure that you'd like to get realtime updates of the markets and the coins.
@@ -17,12 +24,20 @@ Here comes Gravvity! Realtime updates of your favourite coins in just Single ema
   <li>Number of spams per day: <b>0</b></li>
 </ul>
 
-## To Run the code on Local Machine
-
+## Installation
+- Clone the git repository using the below code snippet:
 ```javascript
 git clone https://github.com/GravvityMailer/Webapp
-cd Webapp
-npm i && npm start
 ```
+- Change your current working directory to the project folder:
+```javascript
+cd webapp
+```
+- Install the required dependencies and start the server in dev mode:
+```javascript
+npm i && npm run dev
+````
+**Note:**
+You must have **_NodeJs_, _npm_, _nextjs_, _reactjs_** installed in your system in order to run the project properly
 
 ### Contributions are Welcome :heart:
