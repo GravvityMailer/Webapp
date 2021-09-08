@@ -1,34 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Automated Crypto Newsletter
 
-## Getting Started
+![](https://img.shields.io/badge/Next-JS-green) ![](https://img.shields.io/badge/Node-JS-blue) ![](https://img.shields.io/badge/AWS-red)
 
-First, run the development server:
+## Introduction
+Are you interested in cryptocurrency? If you are then I am sure that you'd like to get realtime updates of the markets and the coins.
+Here comes Gravvity! Realtime updates of your favourite coins in just Single email. 
 
-```bash
-npm run dev
-# or
-yarn dev
+**You can Check the Website <a href='https://gravvity.in'>here</a>**
+
+<img src='https://github.com/AdityaKG-169/File-Share/blob/master/Screenshot%202020-09-23%20at%201.44.40%20AM.png?raw=true' width="500" height="600"/>
+
+### Some stats about File Share Desktop App:
+<ul>
+  <li>Number of Coins Available: <b>10</b></li>
+  <li>Number of emails per day <b>Just 1</b></li>
+  <li>Number of spams per day: <b>0</b></li>
+</ul>
+
+## To Run the code on Local Machine
+
+```javascript
+git clone https://github.com/GravvityMailer/Webapp
+cd Webapp
+npm i && npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Contributions are Welcome :heart:
