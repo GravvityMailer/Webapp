@@ -17,7 +17,7 @@ Here comes Gravvity! Realtime updates of your favourite coins in just Single ema
 
 <img src='https://github.com/GravvityMailer/Webapp/blob/main/Screenshot%20from%202021-09-08%2019-42-33.png?raw=true' width="500" height="600"/>
 
-### Some stats about File Share Desktop App:
+### Some stats about Gravvity:
 <ul>
   <li>Number of Coins Available: <b>10</b></li>
   <li>Number of emails per day <b>Just 1</b></li>
