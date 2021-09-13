@@ -20,7 +20,7 @@ Here comes Gravvity! Realtime updates of your favourite coins in just Single ema
 ### Some stats about Gravvity:
 <ul>
   <li>Number of Coins Available: <b>10</b></li>
-  <li>Number of emails per day <b>Just 1</b></li>
+  <li>Number of emails per day: <b>Just 1</b></li>
   <li>Number of spams per day: <b>0</b></li>
 </ul>
 
