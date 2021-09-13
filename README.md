@@ -31,7 +31,7 @@ git clone https://github.com/GravvityMailer/Webapp
 ```
 - Change your current working directory to the project folder:
 ```javascript
-cd webapp
+cd Webapp
 ```
 - Install the required dependencies and start the server in dev mode:
 ```javascript
